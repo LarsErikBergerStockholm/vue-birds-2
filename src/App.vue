@@ -21,6 +21,6 @@ export default {
   color: $black;
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to top, $light-blue, $white);
+  background-color: $light-blue;
 }
 </style>

@@ -20,7 +20,7 @@
             type="radio"
             :id="option.id"
           />
-          <label :for="option.id" class="option">{{ option.text }}</label>
+          <label v-bind:for="option.id" class="option">{{ option.text }}</label>
         </div>
       </div>
     </div>
@@ -54,10 +54,6 @@ export default defineComponent({
       maxRange: "1000",
       currentSort: "name",
       currentSortDir: "asc",
-      alertMessage:
-        "Välj ditt minimumpris och maxpris. Ditt minimumpris kan inte vara högre än ditt maxpris!",
-      minAngle: 0,
-      maxAngle: 1000,
       products: [
         { name: "Alfågel", price: 350, category: "Fåglar" },
         { name: "Afghanhund", price: 987, category: "Hundar" },

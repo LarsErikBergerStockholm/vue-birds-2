@@ -51,6 +51,7 @@ export default {
   display: flex;
   justify-content: space-between;
   padding: 2rem;
+  cursor: pointer;
 }
 .sort__item {
   list-style: none;

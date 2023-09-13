@@ -42,7 +42,6 @@ input[type="range"]::-webkit-slider-runnable-track {
   background: #666;
 }
 input[type="range"]::-webkit-slider-thumb {
-  border: 1px solid #000000;
   height: 36px;
   width: 16px;
   background: #ffffff;

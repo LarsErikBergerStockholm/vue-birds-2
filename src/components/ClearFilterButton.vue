@@ -13,7 +13,7 @@ export default {
   },
 };
 </script>
-<style lang="scss">
+<style scoped sclang="scss">
 button {
   display: inline-block;
   padding: 0.7em 1.7em;
@@ -22,5 +22,7 @@ button {
   background-color: #666;
   text-align: center;
   position: relative;
+  cursor: pointer;
+  border-style: solid;
 }
 </style>
